@@ -1,0 +1,17 @@
+<button type="button" class="btn btn-default"{{action 'showAccountFormAction' category}}>Create a New Account</button>
+
+{{#if showNewAccountForm}}
+<form>
+  <div class="form-group">
+  <label for="name">User Name</label>
+  {{input value=name id="name"}}
+</div>
+<div class="form-group">
+  <label for="password">Password</label>
+  {{input value=password id="password"}}
+</div>
+<button {{action 'save'}}>Save</button>
+
+
+</form>
+{{/if}}

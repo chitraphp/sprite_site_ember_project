@@ -1,6 +1,6 @@
 import { moduleForModel, test } from 'ember-qunit';
 
-moduleForModel('fair-type', 'Unit | Model | fair type', {
+moduleForModel('user', 'Unit | Model | user', {
   // Specify the other units that are required for this test.
   needs: []
 });
