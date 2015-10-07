@@ -4,5 +4,5 @@ export default DS.Model.extend({
   type: DS.attr(),
   name: DS.attr(),
   description: DS.attr(),
-  site: DS.hasMany('site', {async: true})
+  sites: DS.hasMany('site', {async: true})
 });
