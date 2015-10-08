@@ -13,7 +13,7 @@ module.exports = function(environment) {
       'style-src': "'self' 'unsafe-inline' https://*.googleapis.com",
       'frame-src': "'self' https://*.firebaseio.com"
       },
-    firebase: 'https://fairy.firebaseio.com/',
+    firebase: 'https://sprite-site.firebaseio.com/',
     baseURL: '/',
     locationType: 'auto',
     EmberENV: {
