@@ -1,0 +1,33 @@
+{ "sites": [{
+    "name": "OMSI",
+    "description": "Science museum",
+    "latitude": "45° 30' 30",
+    "longitude": "122° 39' 54",
+    "url": "https://www.omsi.edu/",
+    "site-image": "http://blog.oregonlive.com/advertorial/2009/04/large_omsi_453x509.jpg",
+    "fairy-image": "http://www.annestokes.com/wp-content/uploads/slideshow-satellite/y8-Snow-Fairy.jpg"
+
+  },{
+
+    "name": "Portland Saturday Market",
+    "description": "Open air arts,crafts,food,music and flowers",
+    "latitude": "45° 30' 30",
+    "longitude": "122° 39' 54",
+    "url": "http://www.portlandsaturdaymarket.com/",
+    "site-image": "https://miniroadtripperdotcom.files.wordpress.com/2014/07/20140719-214526-78326858.jpg",
+    "fairy-image": "http://www.annestokes.com/wp-content/uploads/slideshow-satellite/y8-Snow-Fairy.jpg"
+
+  }]
+
+}
+
+{ "fairy-types": [{
+    "type": "spirit",
+    "name": "Tinkerbell",
+    "description": "Personalities with creativity,culture lovers",
+    "fairy-image": "http://www.annestokes.com/wp-content/uploads/slideshow-satellite/y8-Snow-Fairy.jpg"
+
+  }
+  ]
+
+}
