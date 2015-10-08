@@ -8,5 +8,5 @@ export default DS.Model.extend({
   url: DS.attr(),
   siteImage: DS.attr(),
   fairyImage: DS.attr(),
-  fairyTypes: DS.belongsTo('fairyType', {async: true}),
+  fairyTypes: DS.belongsTo('fairy-type', {async: true}),
 });
