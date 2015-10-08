@@ -4,7 +4,15 @@ module.exports = function(environment) {
   var ENV = {
     modulePrefix: 'sprite-site',
     environment: environment,
-    contentSecurityPolicy: { 'connect-src': "'self' https://auth.firebase.com wss://*.firebaseio.com" },
+    contentSecurityPolicy: {
+      'connect-src': "'self' https://auth.firebase.com wss://*.firebaseio.com",
+      'default-src': "'none'",
+      'script-src': "'self' 'unsafe-eval' https://*.firebaseio.com https://*.googleapis.com https://*.gstatic.com",
+      'font-src': "'self' https://*.gstatic.com",
+      'img-src': "'self' *",
+      'style-src': "'self' 'unsafe-inline' https://*.googleapis.com",
+      'frame-src': "'self' https://*.firebaseio.com"
+      },
     firebase: 'https://fairy.firebaseio.com/',
     baseURL: '/',
     locationType: 'auto',
